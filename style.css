@@ -59,3 +59,43 @@ header{
     height: 100%;
 }
 
+.jumbo{
+    background-color: #B4D0E6;
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+
+.Title-jumbo{
+    /* DEBUG */
+    background-color: darkgreen;
+
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    width: 800px;
+    height: 200px;
+    display: flex;
+}
+
+.text-jumbo{
+    /* DEBUG */
+    background-color: chocolate;
+
+    position: absolute;
+    top: 400px;
+    left: 25%;
+    width: 20%;
+    height: 47%;
+}
+
+.img-jumbo{
+    /* DEBUG */
+    background-color: darkgray;
+
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    width: 30%;
+    height: 40%;
+}
