@@ -62,7 +62,7 @@ header{
 main{
     /* DEBUG */
     background-color: rgba(245, 158, 216, 0.312);
-    height: 10000px;
+    height: 4920px;
     width: 100%;
     
 }
@@ -114,9 +114,9 @@ hr{
     margin-top: 80px;
 }
 
-.business{
+.main-content{
     background-color: darkblue;
-    height: 3000px;
+    height: 4000px;
     width: 800px;
     display: flex;
     position: absolute;
@@ -146,7 +146,7 @@ hr{
 
 .plans-template{
     background-color: crimson;
-    height: 20%;
+    height: 15%;
     width: 100%;
     position: absolute;
     top: 230px;
@@ -163,9 +163,98 @@ hr{
 
 .enterprice{
     background-color: aqua;
-    height: 20%;
+    height: 10%;
     width: 100%;
     display: flex;
     position: absolute;
-    top: 30%;
+    top: 25%;
+}
+
+.partner-container{
+    background-color: rgb(255, 0, 191);
+    height: 15%;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 40%;
+}
+
+.partner-img{
+    background-color: chartreuse;
+    height: 100%;
+    width: 65%;
+    display: flex;
+}
+
+.partner-text{
+    background-color: rgb(255, 0, 0);
+    height: 100%;
+    width: 35%;
+    display: flex;
+}
+
+.container-operazioni{
+    background-color: rgb(255, 0, 191);
+    height: 30%;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 58%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title-operazioni{
+    background-color: aqua;
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.operazione{
+    background-color: gold;
+    height: 40%;
+    width: 30%;
+    display: flex;
+    border: black solid 1px;
+}
+
+.img-operazione{
+    background-color: rgb(47, 255, 0);
+    height: 50%;
+    width: 100%;
+    display: flex;
+    border: black solid 1px;
+}
+
+.end-main-text{
+    background-color: aqua;
+    height: 200px;
+    width: 50%;
+    display: flex;
+    position: absolute;
+    top: 91%;
+    left: 25%;
+}
+
+footer{
+    background-color: black;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.column{
+    background-color: gray;
+    height: 40%;
+    width: 200px;
+    border: black solid 1px;
+}
+
+.column1{
+    background-color: gray;
+    height: 90%;
+    width: 200px;
+    border: black solid 1px;
 }
