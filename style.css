@@ -59,9 +59,17 @@ header{
     height: 100%;
 }
 
+main{
+    /* DEBUG */
+    background-color: rgba(245, 158, 216, 0.312);
+    height: 10000px;
+    width: 100%;
+    
+}
+
 .jumbo{
     background-color: #B4D0E6;
-    height: 700px;
+    height: 800px;
     width: 100%;
     display: flex;
 }
@@ -98,4 +106,66 @@ header{
     left: 50%;
     width: 30%;
     height: 40%;
+}
+
+hr{
+    color: black;
+    font-size: 2px;
+    margin-top: 80px;
+}
+
+.business{
+    background-color: darkblue;
+    height: 3000px;
+    width: 800px;
+    display: flex;
+    position: absolute;
+    top: 130%;
+    left: 25%;
+}
+
+.business-title{
+    background-color: green;
+    height: 60px;
+    width: 450px;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+.checkbox{
+    background-color: rgb(236, 11, 244);
+    height: 60px;
+    width: 300px;
+    display: flex;
+    position: absolute;
+    top: 110px
+    
+}
+
+.plans-template{
+    background-color: crimson;
+    height: 20%;
+    width: 100%;
+    position: absolute;
+    top: 230px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan{
+    background-color: aqua;
+    height: 100%;
+    width: 30%;
+}
+
+.enterprice{
+    background-color: aqua;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 30%;
 }
