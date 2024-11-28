@@ -80,5 +80,220 @@ header{
 }
 
 .container-plans{
-    height: 900px;
+    background-color: aqua;
+    height: 850px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.plan{
+    background-color: crimson;
+    height: 100%;
+    width: 30%;
+    border: 1px black solid;
+}
+
+.category{
+    border: 2px black solid;
+    height: 40px;
+}
+
+/* regole testi interni */
+.title-plan{
+    padding: 20px;
+}
+
+.price{
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.period{
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.prova-gratis{
+    width: 80%;
+    padding: 10px;    
+    background-color: blue;  
+    margin-left: 10%;
+    text-align: center;
+    color: #fff;
+}
+
+.vantaggi{
+    line-height: 40px;
+    list-style-type: none;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.acquista{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.division-plan{
+    background-color: gray;
+    margin-top: 40px;
+    width: 40px;
+    margin-left: 20px;
+    border: none;
+    height: 1px;
+}
+
+.plan-point{
+    margin-top: 60px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.vantaggi2{
+    margin-top: 20px;
+    list-style-type: none;
+    line-height: 30px;
+    margin-right: 20px;
+}
+
+.list-element{
+    line-height: 20px;
+}
+
+/* enterprise */
+.enterprise{
+    background-color: chartreuse;
+    height: 300px;
+    margin-top: 60px;
+    
+}
+
+.container-enterprise{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.enterprise-text{
+    background-color: rgb(18, 46, 207);
+    height: 100%;
+    width: 70%;
+}
+
+.sell-office{
+    background-color: pink;
+    height: 100%;
+    width: 30%;
+}
+
+.Dropbox-partner{  
+    background-color: gray;
+    height: 500px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 15%;
+}
+
+.partner-container{
+    background-color: aqua;
+    height: 100%;
+    display: flex;
+    margin-top: 35px;
+}
+
+.partner-img{
+    background-color: pink;
+    height: 100%;
+    width: 60%;
+}
+
+.partner-text{
+    background-color: rgb(55, 18, 240);
+    height: 100%;
+    width: 40%;
+}
+
+.operazioni{
+    background-color: gray;
+    height: 800px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 15%;
+}
+
+.spazio-operazioni{
+    background-color: chartreuse;
+    height: 100%;
+    margin-top: 300px;
+}
+
+.operazioni-container{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.operazione-singola{
+    background-color: red;
+    height: 350px;
+    width: 30%;
+    border: 2px blanchedalmond solid;
+    margin-top: 30px;
+}
+
+.img-operazione{
+    background-color: blue;
+    height: 50%;
+    width: 100%;
+}
+
+.text-operazione{
+    background-color: rgb(255, 0, 212);
+    height: 50%;
+    width: 100%;
+}
+
+.text-end-main{
+    background-color: gray;
+    height: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.end-title{
+    background-color: chartreuse;
+    height: 100%;
+    width: 60%;
+}
+
+footer{
+    background-color: black;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.column{
+    background-color: gray;
+    height: 40%;
+    width: 200px;
+    border: black solid 1px;
+    margin-top: 5%;
+}
+
+.column1{
+    background-color: gray;
+    height: 80%;
+    width: 200px;
+    border: black solid 1px;
+    margin-top: 5%;
 }
