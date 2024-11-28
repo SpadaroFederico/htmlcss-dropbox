@@ -20,4 +20,65 @@ header{
     background-color: red;
     height: 100%;
     width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;;
+}
+
+.jumbo-container{
+    background-color: blueviolet;
+    height: 600px;
+    padding-top: 40px;
+}
+
+.jumbo-content{
+    background-color: aqua;
+    width: 60%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.title{
+   
+}
+
+.img-text{
+    background-color: rgb(0, 255, 4);
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.text-jumbo{
+    background-color: blue;
+    height: 100%;
+    width: 40%;
+}
+
+.img-jumbo{
+    background-color: red;
+    height: 100%;
+    width: 60%;
+}
+
+.business-plans{
+    background-color: gray;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.title-business{
+    background-color: green;
+    height: 80px;
+    width: 80%;
+}
+
+.checkbox{
+    background-color: pink;
+    height: 60px;
+    width: 80%;
+}
+
+.container-plans{
+    height: 900px;
 }
