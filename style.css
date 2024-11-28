@@ -3,3 +3,21 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block1{
+    background-color: greenyellow;
+    height: 100%;
+    width: 30%;
+}
+
+.block2{
+    background-color: red;
+    height: 100%;
+    width: 30%;
+}
