@@ -60,82 +60,131 @@ header{
 }
 
 .jumbo-container{
-    background-color: blueviolet;
+    background-color: #B4D0E6;
     height: 600px;
     padding-top: 40px;
 }
 
 .jumbo-content{
-    background-color: aqua;
+    /* DEBUG */
+    /* background-color: aqua; */
     width: 60%;
     height: 500px;
     margin: 0 auto;
 }
 
 .title{
-   
+   font-size: 60px;
+   margin-left: 20px;
 }
 
 .img-text{
-    background-color: rgb(0, 255, 4);
-    height: 100%;
+    /* background-color: rgb(0, 255, 4); */
+    height: 80%;
     width: 100%;
     display: flex;
 }
 
 .text-jumbo{
-    background-color: blue;
+    /* background-color: blue; */
     height: 100%;
     width: 40%;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.free-trial{
+    color: #fff;
+    text-align: center;
+    background-color: blue;
+    margin-top: 30px;
+    width: 60%;
+    padding: 10px;
+}
+
+.annulla{
+    margin-top: 30px;
 }
 
 .img-jumbo{
-    background-color: red;
+    /* background-color: red; */
+    margin-top: 60px;
     height: 100%;
     width: 60%;
 }
 
+.image-jumbo{
+    max-width: 150%;
+}
+
 .business-plans{
-    background-color: gray;
+    /* DEBUG */
+    /* background-color: gray; */
     margin-left: 20%;
     margin-right: 20%;
+    margin-top: 200px;
 }
 
 .title-business{
-    background-color: green;
+    /* DEBUG */
+    /* background-color: green; */
+    
+    font-size: 30px;
+    display: flex;
+    align-items: center;
     height: 80px;
     width: 80%;
 }
 
 .checkbox{
-    background-color: pink;
+    /* DEBUG */
+    /* background-color: pink; */
+    
+    display: flex;
+    align-items: center;
     height: 60px;
     width: 80%;
 }
 
+.checkbox2{
+    margin-left: 30px;
+}
+
 .container-plans{
-    background-color: aqua;
+    /* DEBUG */
+    /* background-color: aqua; */
+
     height: 850px;
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
 }
 
+i{
+    margin-right: 5px;
+}
+
 .plan{
-    background-color: crimson;
+    /* DEBUG */
+    /* background-color: crimson; */
     height: 100%;
     width: 30%;
     border: 1px black solid;
 }
 
 .category{
-    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
     height: 40px;
 }
 
 /* regole testi interni */
 .title-plan{
-    padding: 20px;
+    padding: 15px;
+    font-size: 25px;
 }
 
 .price{
@@ -155,6 +204,11 @@ header{
     margin-left: 10%;
     text-align: center;
     color: #fff;
+}
+
+.buy-now{
+    text-decoration: underline;
+    color: blue;
 }
 
 .vantaggi{
@@ -185,6 +239,10 @@ header{
     font-weight: 600;
 }
 
+.fa-check{
+    color: blue;
+}
+
 .vantaggi2{
     margin-top: 20px;
     list-style-type: none;
@@ -192,39 +250,95 @@ header{
     margin-right: 20px;
 }
 
+.vantaggi3{
+    line-height: 40px;
+    list-style-type: none;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.no-height{
+    line-height: 25px;
+}
+
 .list-element{
-    line-height: 20px;
+    line-height: 22px;
 }
 
 /* enterprise */
 .enterprise{
-    background-color: chartreuse;
-    height: 300px;
-    margin-top: 60px;
+    /* DEBUG */
+    /* background-color: chartreuse; */
     
+    height: 300px;
+    margin-top: 60px;  
 }
 
 .container-enterprise{
-    background-color: black;
+    /* DEBUG */
+    /* background-color: black; */
+    
     width: 100%;
     height: 100%;
     display: flex;
 }
 
 .enterprise-text{
-    background-color: rgb(18, 46, 207);
+    /* DEBUG */
+    /* background-color: rgb(18, 46, 207); */
+    
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+    border: 1px solid black;
     height: 100%;
     width: 70%;
 }
 
+.ufficio-text{
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.paragrafo-ufficio{
+    width: 87%;
+    padding-top: 140px;
+    font-size: 14px;
+}
+
+.padding-ufficio{
+    margin-top: 30px;
+    padding: 10px;  
+    width: 80%;
+    padding-bottom: 10px;  
+    background-color: blue;  
+    margin-left: 10%;
+    text-align: center;
+    color: #fff;
+}
+
+.padding-ufficio2{
+    color: #fff;
+}
+
+
 .sell-office{
-    background-color: pink;
+    /* DEBUG */
+    /* background-color: pink; */
+    
+    border: 1px solid black;
     height: 100%;
     width: 30%;
 }
 
+.immagine-partner{
+    max-width: 100%;
+}
+
 .Dropbox-partner{  
-    background-color: gray;
+    /* background-color: gray; */
+   
     height: 500px;
     margin-left: 20%;
     margin-right: 20%;
@@ -232,40 +346,77 @@ header{
 }
 
 .partner-container{
-    background-color: aqua;
+    /* background-color: aqua; */
+    
     height: 100%;
     display: flex;
     margin-top: 35px;
 }
 
 .partner-img{
-    background-color: pink;
+    /* background-color: pink; */
+    
     height: 100%;
     width: 60%;
 }
 
 .partner-text{
-    background-color: rgb(55, 18, 240);
+    /* background-color: rgb(55, 18, 240); */
+    
     height: 100%;
     width: 40%;
 }
 
+.partner-title{
+    margin-left: 30px;
+    margin-top: 60px;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.partner-p{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.find-partner{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    width: 45%;
+    text-align: center;
+}
+
 .operazioni{
-    background-color: gray;
+    /* background-color: gray; */
     height: 800px;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 15%;
 }
 
+.title-operazioni{
+    padding-right: 47%;
+    font-size: 25px;
+}
+
 .spazio-operazioni{
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     height: 100%;
-    margin-top: 300px;
+    margin-top: 150px;
+}
+.category2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
 }
 
 .operazioni-container{
-    background-color: black;
+    /* background-color: black; */
     width: 100%;
     height: 100%;
     display: flex;
@@ -274,27 +425,61 @@ header{
 }
 
 .operazione-singola{
-    background-color: red;
+    /* background-color: red; */
     height: 350px;
     width: 30%;
-    border: 2px blanchedalmond solid;
     margin-top: 30px;
 }
 
 .img-operazione{
-    background-color: blue;
+    /* background-color: blue; */
     height: 50%;
+    width: 100%;
+}
+
+.tools{
+    max-height: 100%;
+    width: 100%;
+}
+
+.coordinate{
+    max-height: 100%;
+    width: 100%;
+}
+
+.integrations{
+    max-height: 100%;
+    width: 100%;
+}
+
+.send-files{
+    max-height: 100%;
+    width: 100%;
+}
+
+.multi-device{
+    max-height: 100%;
+    width: 100%;
+}
+
+.security{
+    max-height: 100%;
     width: 100%;
 }
 
 .text-operazione{
-    background-color: rgb(255, 0, 212);
+    /* background-color: rgb(255, 0, 212); */
     height: 50%;
     width: 100%;
 }
 
+.h4-operazione{
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
 .text-end-main{
-    background-color: gray;
+    /* background-color: gray; */
     height: 200px;
     margin-left: 20%;
     margin-right: 20%;
@@ -303,9 +488,22 @@ header{
 }
 
 .end-title{
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     height: 100%;
     width: 60%;
+}
+
+.title-end{
+    font-size: 40px;
+}
+
+.p-end{
+    margin-top: 40px;
+}
+
+.p-end{
+    text-decoration: underline;
+    color: blue;
 }
 
 footer{
@@ -317,7 +515,7 @@ footer{
 }
 
 .column{
-    background-color: gray;
+    /* background-color: gray; */
     height: 40%;
     width: 200px;
     border: black solid 1px;
@@ -325,9 +523,38 @@ footer{
 }
 
 .column1{
-    background-color: gray;
+    /* background-color: gray; */
     height: 80%;
     width: 200px;
     border: black solid 1px;
     margin-top: 5%;
+}
+
+.h3-footer{
+    color: #fff;
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.list-h3{
+    line-height: 30px;
+    list-style: none;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.list-a{
+    color: #fff;
+}
+
+.hr-footer{
+    width: 100px;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+
+.lingua{
+    margin-left: 40px;
+    margin-top: 30px;
+    color: #fff;
 }
